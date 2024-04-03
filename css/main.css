@@ -215,7 +215,7 @@ a {
 .profile__link-block:first-child {
     margin-right: 50px;
 }
-/* для спрайтов бэкграундом*/
+/* Г¤Г«Гї Г±ГЇГ°Г Г©ГІГ®Гў ГЎГЅГЄГЈГ°Г ГіГ­Г¤Г®Г¬*/
 .profile__link-sprite {
     display: inline-block;
     cursor: pointer;
@@ -238,7 +238,7 @@ a {
     position: relative;
     padding-right: 25px;
 }
-/* для спрайтов с use
+/* Г¤Г«Гї Г±ГЇГ°Г Г©ГІГ®Гў Г± use
     .profile__link-block:nth-child(2) .network__svg {
     width: 35px;
     height: 30px;
@@ -371,7 +371,7 @@ a {
     width: 100%;
     height: 665px;
     margin: 0 auto;
-    background: #11A2D0 url(../img/banner.png) no-repeat center;
+    background: url(../img/banner.png) no-repeat center;
     background-size: cover;
 }
 
@@ -1033,15 +1033,15 @@ a {
 }
 
 .popup__wrapper {
-    display: table; /*чтобы не ломался текст при уменьшениях экрана*/
+    display: table; /*Г·ГІГ®ГЎГ» Г­ГҐ Г«Г®Г¬Г Г«Г±Гї ГІГҐГЄГ±ГІ ГЇГ°ГЁ ГіГ¬ГҐГ­ГјГёГҐГ­ГЁГїГµ ГЅГЄГ°Г Г­Г */
     width: 100%;
     height: 100%;
 }
 
 .popup__inner {
-    display: table-cell; /*чтобы не ломался текст при уменьшениях экрана*/
+    display: table-cell; /*Г·ГІГ®ГЎГ» Г­ГҐ Г«Г®Г¬Г Г«Г±Гї ГІГҐГЄГ±ГІ ГЇГ°ГЁ ГіГ¬ГҐГ­ГјГёГҐГ­ГЁГїГµ ГЅГЄГ°Г Г­Г */
     vertical-align: middle;
-    padding: 50px 0; /*контейнер не прижат*/
+    padding: 50px 0; /*ГЄГ®Г­ГІГҐГ©Г­ГҐГ° Г­ГҐ ГЇГ°ГЁГ¦Г ГІ*/
 }
 
 .popup__content {
@@ -1092,7 +1092,7 @@ a {
         width: 3px;
         position: absolute;
         border-radius: 10px;
-        top: 50%; /*выравнивание по центру*/
+        top: 50%; /*ГўГ»Г°Г ГўГ­ГЁГўГ Г­ГЁГҐ ГЇГ® Г¶ГҐГ­ГІГ°Гі*/
         transform: translateY(-50%);
     }
 
